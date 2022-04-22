@@ -8,6 +8,7 @@
     "require": {
         "twig/twig": "^3.3",
         "nesbot/carbon": "^2.57",
-        "ramsey/uuid": "^4.2"
+        "ramsey/uuid": "^4.2",
+        "webmozart/json": "^1.2"
     }
 }

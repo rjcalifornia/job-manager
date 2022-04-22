@@ -55,16 +55,18 @@ return [
 				'upper' => '\d+',
 			],
 		],
-/*
-        //Ruta para agregar una nueva propuesta
-        'add:object:legislations' => [
-			'path' => '/legislations/add/{guid}',
-			'resource' => 'legislations/add',
+
+        //Add new job route
+        'add:object:jobs' => [
+			'path' => '/jobs/add/{guid}',
+			'resource' => 'jobs/add',
 			'middleware' => [
 				\Elgg\Router\Middleware\Gatekeeper::class,
-                \Elgg\Router\Middleware\AdminGatekeeper::class,
+               // \Elgg\Router\Middleware\AdminGatekeeper::class,
 			],
 		],
+/*
+        
 
         //Ver la propuesta que se ha publicado
         'view:object:legislations' => [

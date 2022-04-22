@@ -1,0 +1,15 @@
+{
+    "job_types": [
+		{
+            "Full Time": "Full Time",
+            "Freelance": "Freelance",
+            "Internship": "Internship",
+            "Part Time": "Part Time",
+            "Temporary": "Temporary"
+        }
+    ],
+
+    "job_levels": [
+        
+    ]
+}
